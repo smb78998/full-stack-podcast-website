@@ -1,0 +1,128 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+
+.container-padding{
+  padding: 10px 40px;
+}
+
+
+/* <!-- NAV BLOCK *********--> */
+.nav{
+  background-color: #EDEBEB;
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid blue; */
+  color:white
+}
+
+.nav__header{
+  background-color: #66B539;
+}
+
+.nav__list{
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid red;
+}
+
+/*How can I make li element futher apart? */
+.nav__list li{
+  display: inline;
+  background-color: #374148;
+}
+
+/* <!-- SECTION BLOCK 1*********--> */
+.carasel{
+  border: 2px solid yellow;
+  height: 400px;
+  background-color: #E8F7DD;
+  display: flex;
+  
+}
+
+/* <!-- SECTION BLOCK 2*********--> */
+.questions{
+  height: 400px;
+  background-color: #EDEBEB;
+  display:flex;
+  justify-content: space-around;
+  flex-direction: column;
+  /* border:2px solid purple; */
+}
+
+.questions__who{
+  border: 2px solid red;
+  text-align: center;
+}
+
+.questions__who__text{
+  margin:20px;
+  background-color: #66B539;
+}
+
+.questions__why{
+  display:flex;
+  justify-content: space-around;
+}
+
+.questions__why__left{
+  height: 200px;
+  width: 200px;
+  
+}
+
+.questions__why__right{
+  height: 200px;
+  width: 500px;
+  border: 2px solid black
+
+}
+
+/* <!-- SECTION BLOCK 3*********--> */
+.community{
+  height: 400px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.community h4{
+  color: #66B539;
+}
+.community__feedback{
+  display: flex;
+  justify-content: space-around;
+}
+.community__feedback__box{
+  background-color: #E8F7DD;
+  color: #151B1F;
+  margin: 10px;
+}
+
+/* <!-- SECTION BLOCK 4*********--> */
+.ready{
+  background-color: #66B539;
+  color: white;
+  text-align: center;
+}
+
+.ready__container{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.ready button{
+  background-color: #374148;
+}
+
+/* <!-- FOOTER*********--> */
+footer{
+  height: 100px;
+  background-color: #E6E6E6;
+  text-align: center;
+}
