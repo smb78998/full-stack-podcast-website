@@ -1,0 +1,51 @@
+/* <!-- SECTION BLOCK 3*********--> */
+.community{
+  height: 400px;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+
+  overflow: hidden;
+
+  border-bottom: 2px var(--dark-grey) solid;
+}
+
+
+.community__feedback{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.community__feedback__box{
+  background-color: var(--dark-green);
+  color: #fff;
+
+  margin: 1rem;
+  padding: 1.4rem;
+  border-radius: 4px;
+
+  text-align: left;
+}
+
+.community__feedback__box__top{
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.community__feedback__box__top img{
+  height: 75px;
+  border-radius: 50px;
+  object-fit:cover;
+  margin-right: 1.5rem;
+}
+
+.community__feedback__box__top p{
+  font-size: 1.4rem;
+}

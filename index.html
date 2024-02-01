@@ -3,8 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/x-icon" href="money.png">
+  <link rel="icon" type="image/x-icon" href="assets/money.png">
   <link rel="stylesheet" href="styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&family=Inter:wght@300;400;500;600;700;800;900&family=League+Spartan:wght@100;300;500;600;700;800&family=Outfit:wght@100;400&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&family=Inria+Serif:wght@300;400;700&family=Inter:wght@300;400;500;600;700;800;900&family=League+Spartan:wght@100;300;500;600;700;800&family=Outfit:wght@100;400&family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+
   <title>Cash Chronicles</title>
 </head>
 <body>
@@ -12,71 +21,133 @@
   <main>
 
     <!-- SECTION NAV*********-->
-    <nav class="nav">
+    <nav class="nav lr-margin">
       <h4 class="nav__header">Cash Chronicles</h4>
 
       <ul class="nav__list">
-        <li>Sign Up</li>
-        <li>Listen In</li>
+        <li>About Us</li>
+        <li>Community</li>
+        <li id="nav__list__sign-up">Sign Up</li>
       </ul>
     </nav>
 
     <!-- SECTION BLOCK 1*********-->
-    <section class="carasel">
-      <img src="carasel1.jpg"
-      height="300">
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus amet a iste culpa mollitia assumenda voluptas porro, id neque, incidunt illum quam illo delectus quae reiciendis velit, magni iure! Nostrum.</p>
+    <section class="carasel lr-margin">
+      <div class="carasel__left">
+        <img src="assets/carasel1.jpg"
+        height="300">
+      </div>
+     
+      <div class="carasel__right">
+        <h2>Cash <br/>Chronicles</h2>
+        <p>Personal Finaces can get confusing, we are here to help!</p>
+
+        <button>Subscribe Today</button>
+      </div>
+    
     
     </section>
 
+
+
+
+
+
     <!-- SECTION BLOCK 2*********-->
-    <section class="questions container-padding">
-      <div class="questions__who">
-        <div class="questions__who__text">
-          <p>Who are we?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et qui voluptatum, porro blanditiis, nostrum nemo aspernatur voluptatem tenetur soluta quidem unde distinctio animi adipisci quod nulla iusto explicabo maiores laudantium?</p>
-        </div>
+    <section class="about lr-padding">
+      <div class="about__right ">
+        <h2 class="heading-2">About Us</h2>
+        <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum officiis veniam, perferendis nostrum blanditiis exercitationem nobis necessitatibus placeat debitis dignissimos dicta odit atque et voluptates fugiat, iure officia doloribus laborum!</p>
       </div>
 
-      <div class="questions__why">
-        <div class="questions__why__left">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et qui voluptatum, porro blanditiis, nostrum nemo aspernatur voluptatem tenetur soluta quidem unde distinctio animi adipisci quod nulla iusto explicabo maiores laudantium?</p>
+      <div class="about__left">
+        <div class="iframe-wrapper">
+          <iframe src="https://www.youtube.com/embed/rK6WLHNYjwM?si=n8ZTAwSrI8ynvqxB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
-
-        <div class="questions__why__right">
-         <p>video here</p>
-        </div>
-
+       
       </div>
 
     </section>
 
     <!-- SECTION BLOCK 3*********-->
-    <div class="community container-padding">
-      <h4>Our Community</h4>
+    <div class="community lr-margin">
+      <h2 class="heading-2">Our Community</h4>
+
       <div class="community__feedback">
-        <div class="community__feedback__box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi placeat quasi facilis earum, laboriosam sed esse porro nisi voluptatibus quibusdam molestias unde distinctio blanditiis exercitationem consequatur amet accusantium nulla atque.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quasi voluptates perspiciatis, modi numquam repellendus, recusandae voluptatibus fugiat ducimus quia saepe aut vero nesciunt dicta ut exercitationem laborum. Eos, eaque?</div>
-        <div class="community__feedback__box">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa perferendis accusantium dolor velit exercitationem dolores quo dolore nisi sunt tempora corrupti libero, vel, error aperiam expedita nam deserunt iste veritatis?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quasi voluptates perspiciatis, modi numquam repellendus, recusandae voluptatibus fugiat ducimus quia saepe aut vero nesciunt dicta ut exercitationem laborum. Eos, eaque?</div>
-        <div class="community__feedback__box">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quasi voluptates perspiciatis, modi numquam repellendus, recusandae voluptatibus fugiat ducimus quia saepe aut vero nesciunt dicta ut exercitationem laborum. Eos, eaque?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quasi voluptates perspiciatis, modi numquam repellendus, recusandae voluptatibus fugiat ducimus quia saepe aut vero nesciunt dicta ut exercitationem laborum. Eos, eaque?</div>
+
+        <div class="community__feedback__box">
+          <div class="community__feedback__box__top">
+            <img src="assets/profile1.png">
+            <p>Kris Writgh</p>
+          </div>
+          <p class="p">"If you're seeking financial guidance without the jargon, this podcast is a gem. The hosts share practical tips without overwhelming you, making it easy to apply their advice to your own financial situation."</p>
+        </div>
+
+        <div class="community__feedback__box">
+          <div class="community__feedback__box__top">
+            <img src="assets/profile2.png">
+            <p>Alex Smith</p>
+          </div>
+          <p class="p">"I stumbled upon this hidden gem of a podcast, and it's become my go-to for personal finance wisdom. The hosts share practical tips that have genuinely improved my financial outlook. A must-listen!"</p>
+        </div>
+
+      <div class="community__feedback__box">
+          <div class="community__feedback__box__top">
+            <img src="assets/profile3.png">
+            <p>Sarah Jones</p>
+          </div>
+          <p class="p">"Finally, a podcast that speaks my language! Cash Chronicles breaks down money matters in a way that's relatable and actionable. I've never been more excited about my financial future."</p>
+        </div>
+
       </div>
     </div>
 
      <!-- SECTION BLOCK 3*********-->  
-     <section class="ready container-padding">
-      <h4>Ready to start Saving?</h4>
-      <div class="ready__container">
-        <div class="ready__left">
-          <button>Sign Up Now!</button>
-        </div>
-        <div class="ready__right">
-          <button>Listen In!</button>
-        </div>
+     <section class="ready lr-margin">
+
+      <div class="ready__left">
+        <h2 class="heading-2">Ready to<br> start Saving?</h4>
+        <p >Sign up for our mailing list today!</p>
       </div>
+      
+      <div class="ready__right">
+        <div>
+          <p class="p">Name</p>
+          <input type="text" placeholder="Enter your name " />
+          <p class="p">Email</p>
+          <input type="text" placeholder="Enter a valid email address " />
+        </div>
+        
+        <div class="ready_right_button-container">
+          <button>Submit</button>
+        </div>
+        
+   
+      </div>
+
      </section>
 
      <!-- FOOTER*********-->  
-     <footer>
-      footer
+     <footer class="lr-padding footer-container">
+      
+        <h4 class="footer-container__header">Cash Chronicles</h4>
+  
+        <ul class="footer-container__list">
+          <li>About Us</li>
+          <li>Community</li>
+          <li >Sign Up</li>
+        </ul>
+      
+
+      <div class="footer-right">
+        <a href="https://open.spotify.com/show/4FYpq3lSeQMAhqNI81O0Cn"><img src="assets/spotify.png"></a>
+        <a href="https://twitter.com/planetmoney?lang=en"><img src="assets/twitter.png"></a>
+        <a href="https://www.instagram.com/planetmoney/?hl=en"> <img src="assets/instagram.png"></a>
+        
+        
+       
+      </div>
+
      </footer>
 
   </main>

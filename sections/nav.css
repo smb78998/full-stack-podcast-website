@@ -1,0 +1,51 @@
+/* <!-- NAV BLOCK *********--> */
+nav{
+  padding-top: 1rem;
+}
+
+.nav{
+  
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  /* border: 2px solid blue; */
+
+  border-bottom: 2px var(--dark-grey) solid;
+  
+  min-height: 75px;
+}
+
+.nav__header{
+  font-family: var(--inria);
+  font-size: 1.8rem;
+  color: var(--dark-grey);
+}
+
+/*TOD0: WHy is flex not working how I thought???*/
+.nav__list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.2rem;
+
+  /* border: 2px solid red; */
+}
+
+
+.nav__list li{
+  font-family: var(--inter);
+
+  display: inline-block;
+  margin: 0 1rem;
+  padding: .3rem;
+
+  color: var(--dark-grey);
+}
+
+#nav__list__sign-up{
+  background-color: var(--dark-green);
+  color: white;
+  border-radius: 4px;
+}

@@ -1,0 +1,51 @@
+/* <!-- SECTION BLOCK 1*********--> */
+.carasel{
+  /* border: 2px solid yellow; */
+  min-height: 80vh;
+  background-color: #E8F7DD;
+
+
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+.carasel__right h2{
+  font-family: var(--inria);
+  font-size: 6rem;
+}
+
+.carasel__right p{
+  font-family: var(--inter);
+  font-size: 2rem;
+}
+
+.carasel__right button{
+margin-top: 1.2rem;
+
+  font-family: var(--inter);
+  font-size: 1.4rem;
+
+  padding: 0.5rem;
+  background-color: var(--dark-green);
+  border-style: none;
+  border-radius: 4px;
+
+  color: white;
+  cursor: pointer;
+}
+
+
+.carasel__right button:hover{
+  background-color: rgba(89, 160, 48,.8);
+  }
+
+.carasel__right button:active{
+  background-color: rgba(89, 160, 48,.4);
+ }

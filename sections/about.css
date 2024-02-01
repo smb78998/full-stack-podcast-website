@@ -1,0 +1,38 @@
+/* <!-- SECTION BLOCK 2*********--> */
+.about{
+  min-height: 400px;
+  min-height: 50vh;
+  background-color: var(--dark-grey);
+  color:white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.about__left{
+  width: 50%;
+  
+}
+
+.about__right{
+  width:50%;
+}
+
+.iframe-wrapper{
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; 
+}
+
+.about__left iframe{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  
+}
+

@@ -1,128 +1,53 @@
+/* other css file imports */
+@import url("sections/nav.css");
+@import url("sections/carasel.css");
+@import url("sections/about.css");
+@import url("sections/community.css");
+@import url("sections/ready.css");
+@import url("sections/footer.css");
+
+:root {
+  --inter: 'Inter', sans-serif;
+  --inria: 'Inria Serif', serif;
+
+  --dark-green: #59A030;
+  --dark-grey: #151B1F;
+  --light-grey: #374148;
+  --light-green: #E8F7DD;
+  --very-light-grey: #EDEBEB;
+
+  --color-white: #fff;
+
+}
+
+
 *{
   box-sizing: border-box;
   margin:0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
-.container-padding{
-  padding: 10px 40px;
+/*left and right */
+.lr-margin{
+  margin: 0px 10rem;
+}
+.lr-padding{
+  padding: 0px 10rem;
+}
+
+body{
+  background-color: var(--light-green);
+  color: var(--dark-grey);
+}
+
+.heading-2{
+  font-family: var(--inria);
+  font-size: 3.5rem;
+}
+
+.p{
+  font-family: var(--inter);
 }
 
 
-/* <!-- NAV BLOCK *********--> */
-.nav{
-  background-color: #EDEBEB;
-  display: flex;
-  justify-content: space-between;
-  /* border: 2px solid blue; */
-  color:white
-}
-
-.nav__header{
-  background-color: #66B539;
-}
-
-.nav__list{
-  display: flex;
-  justify-content: space-between;
-  border: 2px solid red;
-}
-
-/*How can I make li element futher apart? */
-.nav__list li{
-  display: inline;
-  background-color: #374148;
-}
-
-/* <!-- SECTION BLOCK 1*********--> */
-.carasel{
-  border: 2px solid yellow;
-  height: 400px;
-  background-color: #E8F7DD;
-  display: flex;
-  
-}
-
-/* <!-- SECTION BLOCK 2*********--> */
-.questions{
-  height: 400px;
-  background-color: #EDEBEB;
-  display:flex;
-  justify-content: space-around;
-  flex-direction: column;
-  /* border:2px solid purple; */
-}
-
-.questions__who{
-  border: 2px solid red;
-  text-align: center;
-}
-
-.questions__who__text{
-  margin:20px;
-  background-color: #66B539;
-}
-
-.questions__why{
-  display:flex;
-  justify-content: space-around;
-}
-
-.questions__why__left{
-  height: 200px;
-  width: 200px;
-  
-}
-
-.questions__why__right{
-  height: 200px;
-  width: 500px;
-  border: 2px solid black
-
-}
-
-/* <!-- SECTION BLOCK 3*********--> */
-.community{
-  height: 400px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-.community h4{
-  color: #66B539;
-}
-.community__feedback{
-  display: flex;
-  justify-content: space-around;
-}
-.community__feedback__box{
-  background-color: #E8F7DD;
-  color: #151B1F;
-  margin: 10px;
-}
-
-/* <!-- SECTION BLOCK 4*********--> */
-.ready{
-  background-color: #66B539;
-  color: white;
-  text-align: center;
-}
-
-.ready__container{
-  display: flex;
-  justify-content: space-around;
-  
-}
-
-.ready button{
-  background-color: #374148;
-}
-
-/* <!-- FOOTER*********--> */
-footer{
-  height: 100px;
-  background-color: #E6E6E6;
-  text-align: center;
-}
