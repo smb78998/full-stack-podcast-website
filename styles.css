@@ -50,12 +50,25 @@ body{
   font-family: var(--inter);
 }
 
+/*trying to fix image shrink to much on larger screens*/
+/* @media only screen and (min-width: 1100px) {
+ 
+  *{
+    color:red;
+  }
+  
+  .carasel__right img{
+    min-width: 500px;
+  }
+ 
+} */
+
 @media only screen and (max-width: 1100px) {
   .lr-margin{
     margin: 0px 4rem;
   }
   .lr-padding{
-    padding: 0px 4%;
+    padding: 0px 4px;
   }
 
   /* SECTION 1 carasel */
@@ -97,8 +110,6 @@ body{
     text-align: center;
     flex-wrap: wrap;
   }
-
-
   
   .carasel__right h2{
     font-family: var(--inria);
@@ -110,7 +121,6 @@ body{
     font-size: 1.5rem;
   }
 
-
   .carasel__right{
     display:flex;
     flex-direction: column;
@@ -120,14 +130,30 @@ body{
     /* <!-- SECTION BLOCK 2*********--> */
   .about{
     flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
 
+  .about__left{
+    min-width: 400px;
+    width: 90%;
+  }
+
+  .about__left{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .about__right{
+    min-width: 400px;
+    width: 90%;
   }
 
   /* SECTION 4 ready */
   .ready{
     text-align: center;
     justify-content: center;
-  
   }
 
   

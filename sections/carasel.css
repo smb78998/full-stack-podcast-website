@@ -4,8 +4,6 @@
   min-height: 80vh;
   background-color: #E8F7DD;
 
-
-
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -44,4 +42,8 @@
 
 .carasel__right button:active{
   background-color: rgba(89, 160, 48,.4);
+ }
+
+ .carasel__left img{
+  width:100%;
  }
