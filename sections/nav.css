@@ -42,10 +42,27 @@ nav{
   padding: .3rem;
 
   color: var(--dark-grey);
+
+  cursor:pointer;
+  transition: 0.3s ease-out;
 }
 
-#nav__list__sign-up{
-  background-color: var(--dark-green);
-  color: white;
+.nav__list a{
+  color: inherit; /* blue colors  */
+  text-decoration: inherit; /* no underline */
+}
+
+.nav__list li:hover{
+  color: #59A030;
+  
+}
+
+.nav__list__button{
+  background-color: var(--dark-green)!important;
+  color: white!important;
   border-radius: 4px;
+}
+
+.nav__list__button:hover{
+  background-color: rgba(89, 160, 48,.8)!important;
 }
