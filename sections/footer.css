@@ -2,36 +2,39 @@
 
 /* <!-- FOOTER*********--> */
 footer{
-  height: 100px;
+  height: 20vh;
   background-color: var(--dark-grey);
  
 }
 
-.footer-container{
-  
-
+.footer{
   display: flex;
-  justify-content: left;
+  justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
   
 }
 
-.footer-container__header{
+.footer__header{
   font-family: var(--inria);
   font-size: 1.8rem;
   color: white;
 }
 
+.footer__left{
+  display: flex;
+  
+}
+
 /*TOD0: WHy is flex not working how I thought???*/
-.footer-container__list{
+.footer__left__list{
   margin-left: 2rem;
 
   list-style: none;
 
   display: flex;
-  justify-content: center;
-  align-items: center;
+  
+ 
 
   font-size: 1.2rem;
   color: white;
@@ -40,20 +43,15 @@ footer{
   /* border: 2px solid red; */
 }
 
-
-.footer-container__list li{
+.footer__left__list li{
   
 
   display: inline-block;
-  margin: 0 2rem;
+  margin: 0 1rem;
 
 }
 
-.footer-right{
-  
-}
-
-.footer-right img{
+.footer__right img{
   height: 20px;
-
+  margin: 0rem .5rem;
 }

@@ -9,15 +9,18 @@
   align-items: center;
   justify-content: space-between;
 
+  flex-wrap: wrap;
+
 }
 
 .about__left{
   width: 50%;
-  
+
 }
 
 .about__right{
   width:50%;
+  
 }
 
 .iframe-wrapper{

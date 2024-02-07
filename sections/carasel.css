@@ -9,12 +9,8 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  flex-wrap: wrap;
+
 }
-
-
-
-
 
 .carasel__right h2{
   font-family: var(--inria);
@@ -27,7 +23,7 @@
 }
 
 .carasel__right button{
-margin-top: 1.2rem;
+  margin-top: 1.2rem;
 
   font-family: var(--inter);
   font-size: 1.4rem;

@@ -15,6 +15,7 @@
 
 .ready__left{
   width: 50%;
+  min-width: 300px;
 }
 
 .ready__left p{
@@ -27,7 +28,7 @@
 /*--------------------------------------------------*/
 .ready__right{
   width: 50%;
-
+  min-width: 300px;
   /* border:solid red 1px; */
   /* display: flex;
   flex-direction: column;
