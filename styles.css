@@ -15,8 +15,9 @@
   --light-grey: #374148;
   --light-green: #E8F7DD;
   --very-light-grey: #EDEBEB;
-
   --color-white: #fff;
+
+  --website-title:6rem;
 
 }
 
@@ -27,7 +28,7 @@
   padding: 0;
   scroll-behavior: smooth;
 
-  overflow: hidden;
+  
 }
 
 /*left and right */
@@ -107,6 +108,16 @@ body{
     padding: 0px 1rem;
   }
 
+ 
+  .heading-2{
+    font-family: var(--inria);
+    font-size: 3.2rem;
+  }
+
+  .p{
+    font-size: .8rem;
+  }
+
   /* SECTION 1 carasel */
   .carasel{
     text-align: center;
@@ -115,12 +126,12 @@ body{
   
   .carasel__right h2{
     font-family: var(--inria);
-    font-size: 4.5rem;
+    font-size: 4.2rem;
   }
 
   .carasel__right p{
     font-family: var(--inter);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .carasel__right{
@@ -137,7 +148,7 @@ body{
   }
 
   .about__left{
-    min-width: 400px;
+    min-width: 300px;
     width: 90%;
   }
 
@@ -148,8 +159,18 @@ body{
   }
   
   .about__right{
-    min-width: 400px;
+    min-width: 300px;
     width: 90%;
+  }
+
+  /* <!-- SECTION BLOCK 3*********--> */
+  .community__feedback{
+   flex-wrap: wrap;
+  
+  }
+
+  .community__feedback__box{
+   
   }
 
   /* SECTION 4 ready */

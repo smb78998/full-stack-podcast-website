@@ -1,6 +1,6 @@
 /* <!-- SECTION BLOCK 3*********--> */
 .community{
-  height: 400px;
+  min-height: 400px;
   text-align: center;
 
   display: flex;
