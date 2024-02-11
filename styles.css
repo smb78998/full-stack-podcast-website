@@ -28,7 +28,7 @@
   padding: 0;
   scroll-behavior: smooth;
 
-  
+
 }
 
 /*left and right */
@@ -55,15 +55,15 @@ body{
 
 /*trying to fix image shrink to much on larger screens*/
 /* @media only screen and (min-width: 1100px) {
- 
+
   *{
     color:red;
   }
-  
+
   .carasel__right img{
     min-width: 500px;
   }
- 
+
 } */
 
 @media only screen and (max-width: 1100px) {
@@ -73,13 +73,12 @@ body{
   .lr-padding{
     padding: 0px 4px;
   }
-
   /* SECTION 1 carasel */
   .carasel{
     text-align: center;
     flex-wrap: wrap;
   }
-  
+
   .carasel__right h2{
     font-family: var(--inria);
     font-size: 4.5rem;
@@ -96,11 +95,9 @@ body{
     flex-direction: column;
     align-items: center;
   }
-
- 
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   .lr-margin{
     margin: 0px 1rem;
   }
@@ -108,7 +105,7 @@ body{
     padding: 0px 1rem;
   }
 
- 
+
   .heading-2{
     font-family: var(--inria);
     font-size: 3.2rem;
@@ -118,12 +115,65 @@ body{
     font-size: .8rem;
   }
 
+
+  /*NAV BAR*/
+  .hamburger{
+    display: block;
+  }
+
+  .nav__list li{
+    color: white;
+    margin: 1rem;
+  }
+
+  .nav__list__button{
+    background-color: transparent !important;
+    color: white!important;
+    border-radius: 4px;
+  }
+
+  .nav__list__button:hover{
+    background-color: transparent !important;
+  }
+
+  .nav__list li:hover{
+    color: rgba(255, 255, 255, 0.5)!important;
+
+  }
+
+  .nav__list{
+    position: fixed;
+    left: -100%;
+    top: 72px;
+    flex-direction: column;
+    background-color: var(--dark-green);
+    width: 100%;
+    text-align: center;
+     transition: 0.3s; 
+
+    color: var(--dark-grey);
+  }
+
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg) ;
+  }
+
+  .nav__list.active{
+    left: 0;
+  }
+
   /* SECTION 1 carasel */
   .carasel{
     text-align: center;
     flex-wrap: wrap;
   }
-  
+
   .carasel__right h2{
     font-family: var(--inria);
     font-size: 4.2rem;
@@ -157,7 +207,7 @@ body{
     justify-content: center;
     flex-direction: column;
   }
-  
+
   .about__right{
     min-width: 300px;
     width: 90%;
@@ -166,11 +216,11 @@ body{
   /* <!-- SECTION BLOCK 3*********--> */
   .community__feedback{
    flex-wrap: wrap;
-  
+
   }
 
   .community__feedback__box{
-   
+
   }
 
   /* SECTION 4 ready */
@@ -179,7 +229,7 @@ body{
     justify-content: center;
   }
 
-  
+
 /* <!-- FOOTER*********--> */
 .footer{
   flex-direction: column;

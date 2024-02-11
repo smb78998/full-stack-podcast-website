@@ -4,7 +4,12 @@ nav{
 }
 
 .nav{
-  
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -12,6 +17,7 @@ nav{
   /* border: 2px solid blue; */
 
   border-bottom: 2px var(--dark-grey) solid;
+  background-color: var(--light-green);
   
   min-height: 75px;
 }
@@ -65,4 +71,21 @@ nav{
 
 .nav__list__button:hover{
   background-color: rgba(89, 160, 48,.8)!important;
+}
+
+/*hamburger*/
+
+.hamburger{
+  display: none;
+  cursor: pointer;
+}
+
+.bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  /* -webkit-transition: all 0.3s ease; */
+  transition: all 0.3s ease;
+  background-color: var(--dark-grey);
 }
