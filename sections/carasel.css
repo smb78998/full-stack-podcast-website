@@ -1,7 +1,7 @@
 /* <!-- SECTION BLOCK 1*********-->  originally was going to be a carousel but moved that to the community section when viewed on mobile*/
 .carasel{
   /* border: 2px solid yellow; */
-  min-height: 80vh;
+  min-height: 90vh;
   background-color: #E8F7DD;
 
   display: flex;
@@ -13,11 +13,22 @@
 .carasel__right h2{
   font-family: var(--inria);
   font-size: 6rem;
+
+  animation-name:slideInRight;
+  animation-duration: .5s;
 }
 
 .carasel__right p{
   font-family: var(--inter);
   font-size: 2rem;
+  opacity: 0;
+
+
+  animation-name:fadeIn;
+  animation-duration: 1s;
+  animation-delay: .25s;
+  animation-fill-mode: forwards;
+
 }
 
 .carasel__right button{
@@ -33,17 +44,51 @@
 
   color: white;
   cursor: pointer;
+
+}
+
+.animate-button{
+  animation-name:fadeIn;
+  animation-duration: 1s;
+  animation-delay: .25s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
 }
 
 
-.carasel__right button:hover{
+/* .carasel__right button:hover{
   background-color: rgba(89, 160, 48,.8);
   }
 
 .carasel__right button:active{
   background-color: rgba(89, 160, 48,.4);
- }
+ } */
 
  .carasel__left img{
   width:100%;
  }
+
+
+
+
+ @keyframes slideInRight{
+  from{
+    transform:translateX(100px);
+  }
+
+  to{
+    transform: translateX(0);
+  }
+}
+
+
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+  }
+
+  to{
+    opacity: 1;
+  }
+}
+

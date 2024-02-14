@@ -67,6 +67,7 @@ nav{
   background-color: var(--dark-green)!important;
   color: white!important;
   border-radius: 4px;
+  padding: 1rem;
 }
 
 .nav__list__button:hover{
