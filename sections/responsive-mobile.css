@@ -186,6 +186,19 @@
     justify-content: center;
   }
 
+/* contact */
+.welcome-back{
+
+  margin:1rem 1rem!important;
+  
+}
+
+
+.welcome-back ul{
+ flex-direction: column!important;
+}
+
+
 /* <!-- FOOTER*********--> */
 .footer{
   flex-direction: column;

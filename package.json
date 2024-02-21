@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/preset-env": "^7.23.9"
+  }
+}

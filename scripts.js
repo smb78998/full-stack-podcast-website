@@ -68,3 +68,4 @@ document.querySelectorAll(".community__feedback").forEach((community__feedback) 
   items[0].classList.add("community__feedback__box--selected");
   buttons[0].classList.add("carousel__button--selected");
 });
+

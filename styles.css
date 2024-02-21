@@ -127,3 +127,25 @@ body{
   }
 }
 
+/*REACT*/
+.welcome-back{
+  background-color: rgba(89, 160, 48,.2);
+  border-radius: 4px;
+  
+  margin:1rem 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:2rem;
+}
+
+.welcome-back h2{
+  font-family: var(--inria);
+  font-size: 3.5rem;
+}
+
+.welcome-back ul{
+  font-family: var(--inter);
+  display: flex;
+  gap: 4rem;
+}
