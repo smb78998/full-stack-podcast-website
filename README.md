@@ -13,9 +13,8 @@ The website advertises a fake podcast called "Cash Chronicles" and includes simp
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
-- [Author](#author)
+  - [Author](#author)
 
 
 ## Overview
@@ -26,9 +25,7 @@ The website advertises a fake podcast called "Cash Chronicles" and includes simp
 <img src="screenshots/mobile.png" href="screenshots/mobile.png">
 
 
-## My process
-
-### Built with
+## Built with
 
 - HTML5 
 - CSS 
