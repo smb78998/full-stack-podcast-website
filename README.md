@@ -10,8 +10,7 @@ The website advertises a fake podcast called "Cash Chronicles" and includes simp
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
   - [Author](#author)
