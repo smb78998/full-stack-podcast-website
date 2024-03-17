@@ -20,8 +20,8 @@ The website advertises a fake podcast called "Cash Chronicles" and includes simp
 
 ### Screenshot
 
-<img src="screenshots/browser.png" href="screenshots/broswer.png">
-<img src="screenshots/mobile.png" href="screenshots/mobile.png">
+<img src="screenshots/browser.png" href="screenshots/broswer.png" width="400">
+<img src="screenshots/mobile.png" href="screenshots/mobile.png" height="600">
 
 
 ## Built with
