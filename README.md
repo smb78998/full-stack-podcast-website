@@ -10,17 +10,20 @@ The website advertises a fake podcast called "Cash Chronicles" and includes simp
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshots](#screenshot)
-  - [Links](#links)
-  - [Built with](#built-with)
-  - [Author](#author)
+- [Screenshots](#screenshot)
+- [Links](#links)
+- [Built with](#built-with)
+- [Author](#author)
 
 
 ## Overview
 
-### Screenshot
+## Screenshot
 
+###Destok Website
 <img src="screenshots/browser.png" href="screenshots/broswer.png" width="400">
+
+###Mobile Website
 <img src="screenshots/mobile.png" href="screenshots/mobile.png" height="600">
 
 
