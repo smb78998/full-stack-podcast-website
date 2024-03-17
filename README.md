@@ -18,12 +18,12 @@ The website advertises a fake podcast called "Cash Chronicles" and includes simp
 
 ## Overview
 
-## Screenshot
+## Screenshots
 
-### Desktop Website
+Desktop Website
 <img src="screenshots/browser.png" href="screenshots/broswer.png" width="400">
 
-### Mobile Website
+Mobile Website
 <img src="screenshots/mobile.png" href="screenshots/mobile.png" height="600">
 
 
