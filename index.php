@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/x-icon" href="assets/money.png">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet"  type="text/css" href="styles.css">
   
 
 
@@ -25,7 +25,7 @@
 
     <!-- SECTION NAV*************************-->
     <nav class="nav lr-padding">
-      <h4 class="nav__header"><a href="#top">Cash Chronicles</a></h4>
+      <h4 class="nav__header"><a href="#top">--Cash Chronicles</a></h4>
 
       <ul class="nav__list">
         <li><a href="#about">About Us</a></li>
@@ -137,7 +137,7 @@
       
 
 
-          <form action="" id="myForm" method="post">
+          <form action="#sign" id="myForm" method="post">
             <p class="p">First Name</p>
             <input type="text" placeholder="Enter your first name " name="firstName"/>
             <p class="p">Last Name</p>
@@ -171,9 +171,9 @@
               try{
                 //connection object 
                 $conn = mysqli_connect($db_sever, $db_user, $db_pass,$db_name);
-                echo"database connected";
+                //echo"database connected";
               }catch(mysqli_sql_exception){
-                echo"Not Connected";
+                //echo"Not Connected";
               }
   
               // //Check if Database is connected
@@ -213,7 +213,7 @@
                   try{
                     $sql = "INSERT INTO users (lastName, firstName, email) Values('$firstName', '$lastName', '$email')";
                       mysqli_query($conn, $sql);
-                      echo"You are now registered!";
+                      echo"<p style= 'font-family:var(--inter); color:#151B1F' >You are now registered!<p>";
                   }
                   catch(mysqli_sql_exception){
                       echo"Error";

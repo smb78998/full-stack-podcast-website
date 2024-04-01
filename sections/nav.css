@@ -26,6 +26,11 @@ nav{
   font-family: var(--inria);
   font-size: 1.8rem;
   color: var(--dark-grey);
+  cursor:pointer;
+}
+
+.nav__header:hover{
+  color: #151b1f9f;
 }
 
 /*TOD0: WHy is flex not working how I thought???*/

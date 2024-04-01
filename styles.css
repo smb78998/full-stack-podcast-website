@@ -11,6 +11,7 @@
   --inter: 'Inter', sans-serif;
   --inria: 'Inria Serif', serif;
 
+
   --dark-green: #59A030;
   --dark-grey: #151B1F;
   --light-grey: #374148;
@@ -27,10 +28,14 @@
   box-sizing: border-box;
   margin:0;
   padding: 0;
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
 
 
 }
+/*removeing links style*/
+a{
+  all:unset;
+} 
 
 /*left and right */
 .lr-margin{
@@ -52,6 +57,13 @@ body{
 
 .p{
   font-family: var(--inter);
+  
+}
+
+/*style for php*/
+.p-php{
+  font-family: var(--inter);
+  color:#151B1F
 }
 
 /*trying to fix image shrink to much on larger screens*/
