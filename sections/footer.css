@@ -19,6 +19,11 @@ footer{
   font-family: var(--inria);
   font-size: 1.8rem;
   color: white;
+  cursor:pointer;
+}
+
+.footer__header:hover{
+  color: rgba(255, 255, 255, 0.822);
 }
 
 .footer__left{
@@ -48,10 +53,16 @@ footer{
 
   display: inline-block;
   margin: 0 1rem;
+  cursor:pointer;
 
+}
+
+.footer__left__list li:hover{
+  color: rgba(255, 255, 255, 0.822);
 }
 
 .footer__right img{
   height: 20px;
   margin: 0rem .5rem;
+  cursor:pointer;
 }

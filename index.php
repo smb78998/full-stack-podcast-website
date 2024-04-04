@@ -25,14 +25,21 @@
 
     <!-- SECTION NAV*************************-->
     <nav class="nav lr-padding">
-      <h4 class="nav__header"><a href="#top">--Cash Chronicles</a></h4>
+      
+     
+      <h4 class="nav__header"><a href="#top">Cash Chronicles</a></h4>
+    
 
       <ul class="nav__list">
         <li><a href="#about">About Us</a></li>
         <li><a href="#community">Community</a></li>
-        <li class="nav__list__button"><a href="#sign">Sign Up</a></li>
-        <li class="nav__list__button"><a href="https://open.spotify.com/show/4FYpq3lSeQMAhqNI81O0Cn" target="_blank">Listen in</a></li>
+        <li ><a href="#sign">Sign Up</a></li>
+        <li ><a href="https://open.spotify.com/show/4FYpq3lSeQMAhqNI81O0Cn" target="_blank">Listen in</a></li>
+       <li class="nav__list__button"><a href="index2.php">Leave a Review</a></li>
+        
       </ul>
+
+   
 
       <div class="hamburger">
         <span class="bar"></span>
@@ -200,10 +207,10 @@
               $email = $_POST["email"];
           
               if(empty($firstName)){
-                  echo"Please enter a username";
+                  echo"Please enter a first name";
               }
               elseif(empty($lastName)){
-                  echo"Please enter a password";
+                  echo"Please enter a last name ";
               }
               elseif(empty($email)){
                 echo"Please enter an email";

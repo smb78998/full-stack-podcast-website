@@ -6,6 +6,7 @@
 @import url("sections/ready.css");
 @import url("sections/footer.css");
 @import url("sections/responsive-mobile.css");
+@import url("sections/review.css");
 
 :root {
   --inter: 'Inter', sans-serif;
