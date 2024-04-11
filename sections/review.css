@@ -6,6 +6,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+
+  margin: 0px 10rem;
 
 }
 
@@ -29,12 +32,13 @@
   max-width: 150px;
  }
 
- /* ------- */
+ /* ---REVIEW BOTTOM---- */
 .review-bot{
   display:flex;
   align-items: center;
   /* justify-content: space-around; */
   flex-direction: column;
+  flex-wrap: wrap;
   gap:1rem;
 
   font-size: 1rem;
@@ -45,21 +49,41 @@
  font-size: 1rem;
 }
 
+.review-bot label{
+  font-size: 1.3rem;
+ }
+
  .review-bot input {
      padding: .5rem;
-     width: 350px;
+     width: 100%;
+
+     border:none;
+     background-color: rgba(89, 160, 48,.2)
  }
 
  .review-bot button{
   border:none;
+  font-size: 1.2rem;
 
-  padding:.5rem;
+  margin-top: .5rem;
+
+  padding:.6rem;
   background-color:var(--dark-green);
   color:rgb(255, 255, 255);
   border-radius: 4px;
   min-width: 4rem;
+  width: 100%;
+
+  cursor:pointer;
+ }
+ .review-bot button:hover{
+
+  background-color: rgba(89, 160, 48,.8)
+
  }
 
+
+  /* ---REVIEW GRID---- */
  .review-grid-container{
   display:flex;
   justify-content: center;
@@ -84,6 +108,12 @@
 }
 
 @media  (max-width: 750px) {
+  .review-top{
+    text-align: center;
+    margin: 4rem 4rem 0rem 4rem;
+   }
+
+ 
   .review-grid {
   
     grid-template-columns: 1fr ;
@@ -92,6 +122,12 @@
 }
 
 @media  (min-width: 751px) and (max-width:999px) {
+  .review-top{
+    text-align: center;
+    margin: 4rem 4rem 0rem 4rem;
+   }
+
+
   .review-grid {
   
     grid-template-columns: 1fr 1fr ;

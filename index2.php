@@ -38,8 +38,9 @@
       </div>
     </nav>
 
+    
     <!-- SECTION BLOCK 1*************************-->
-    <section class="review-top lr-margin">
+    <section class="review-top">
 
       <div class="review-top__left">
         <img src="assets/review.png" >
@@ -63,6 +64,8 @@
         <input type="text" class="" id="textReview" name="textReview">
         <button type="submit" class="">Post</button>
       </form>
+
+
       <?php
             if($_SERVER["REQUEST_METHOD"] == "POST"){
 
