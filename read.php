@@ -7,7 +7,8 @@
    <link rel="stylesheet"  type="text/css" href="styles.css">
    <style>
 
-    table{
+  /*old style*/
+    /* table{
       margin: 1rem auto;
 
       font-family: var(--inter);
@@ -25,6 +26,32 @@
       border-radius: 4px;
 
      margin: 20px;
+    } */
+
+    /* .review-grid{
+      display:flex;
+      flex-wrap: wrap;
+      margin: 0 auto;
+    } */
+
+
+
+    .review-box{
+      background-color: rgba(89, 160, 48,.2);
+      box-shadow: 0 3px 10px rgb(0 0 0 / 0.25);
+      border-radius: 4px;
+
+      font-family: var(--inter);
+      font-size: 1.2rem;
+
+      width:100%;
+   
+
+      padding:1rem;
+    }
+
+    .review-box span{
+      font-weight: 500;
     }
 
    </style>
@@ -43,9 +70,9 @@
 <body>
 
   <main>
-<table>
-  <tbody>
-    <?php
+
+  <section class="review-grid">
+  <?php
     // include '../db.php';
     //above tutorial have a php page just for sql connection we dont 
     $db_sever = "localhost";
@@ -65,16 +92,19 @@
     $sql = "select * from reviews";
     $result = $conn->query($sql);
     while($row = $result->fetch_assoc()) {
-      echo "<tr>";
-      echo "<td>" .  $row['username'] ."<br>"."\"". $row['textReview'] ."\"". "</td>";
-      // echo "<td>" ."-". "</td>";
-      
-      echo "</tr>";
+
+      echo "<div class=\"review-box\">";
+        echo "<p><span>" .  $row['username'] ."</span></p> <br> ";
+        echo "<p>" ."\"". $row['textReview'] ."\"". "</td>" . "</p>";
+      echo "</div>";
+
+
     }
     $conn->close();
   ?>
-  </tbody>
-</table>
+  </section>
+   
+
  
  
 

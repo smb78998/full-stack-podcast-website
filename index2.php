@@ -80,8 +80,11 @@
                 //echo"Not Connected";
               }
 
+              
               $username = $_POST["username"];
+              htmlspecialchars($username);
               $textReview = $_POST["textReview"];
+              htmlspecialchars($textReview);
           
               if(empty($username)){
                   echo"Please enter a username";
@@ -106,11 +109,11 @@
 
      
 <!-- SECTION BLOCK 3*************************-->  
-<section >
+<section class="review-grid-container lr-padding">
 
  
-      <?php include 'read.php';?>
-
+    <?php include 'read.php';?>
+  
 
 </section>
    
