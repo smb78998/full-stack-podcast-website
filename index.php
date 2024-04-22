@@ -152,7 +152,7 @@
             <p class="p">Email</p>
             <input type="text" placeholder="Enter a valid email address " name="email" />
 
-            <input type="submit" name="submit" value="register" id="ready__right--register">
+            <input type="submit" name="submit" value="Register" id="ready__right--register">
            
             </form>
 

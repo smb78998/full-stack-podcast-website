@@ -50,6 +50,25 @@
   font-size: 1rem;
 
   margin-bottom: .5rem;
+  
+}
+
+
+#ready__right--register{
+ 
+  background-color: rgba(89, 160, 48,.8);
+  transition: 0.3s ease-out;
+
+ color:white;
+}
+
+
+
+#ready__right--register:hover{
+ 
+  background-color: rgba(89, 160, 48, 0.418);
+
+  
 }
 
 .ready__right p{
