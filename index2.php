@@ -28,7 +28,7 @@
       <h4 class="nav__header"><a href="/index.php#top">Cash Chronicles</a></h4>
 
       <ul class="nav__list">
-        <li class="nav__list__button"><a href="index.php">Back to Homepage</a></li>
+        <li class="button-animation nav__list__button"><a href="index.php">Back to Homepage</a></li>
       </ul>
 
       <div class="hamburger">

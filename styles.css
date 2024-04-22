@@ -85,7 +85,7 @@ body{
 .button-animation:hover{
   background: rgb(89,160,48);
   background: linear-gradient(90deg, rgba(89,160,48,1) 25%, rgb(133, 212, 87) 50%, rgba(89,160,48,1) 75%);
-  animation:slidebg 4s linear infinite;
+  animation:slidebg 4s linear infinite!important;
 }
 
 .button-animation:active{

@@ -35,7 +35,7 @@
         <li><a href="#community">Community</a></li>
         <li ><a href="#sign">Sign Up</a></li>
         <li ><a href="https://open.spotify.com/show/4FYpq3lSeQMAhqNI81O0Cn" target="_blank">Listen in</a></li>
-       <li class="nav__list__button"><a href="index2.php">Leave a Review</a></li>
+       <li class="nav__list__button button-animation"><a href="index2.php">Leave a Review</a></li>
         
       </ul>
 
@@ -202,18 +202,23 @@
               // }
   
 
-              $firstName = $_POST["firstName"];
-              $lastName = $_POST["lastName"];
-              $email = $_POST["email"];
+              // $firstName = $_POST["firstName"];
+              // $lastName = $_POST["lastName"];
+              // $email = $_POST["email"];
+
+              $firstName =  filter_input(INPUT_POST, "firstName",FILTER_SANITIZE_SPECIAL_CHARS);
+
+              $lastName = filter_input(INPUT_POST, "lastName",FILTER_SANITIZE_SPECIAL_CHARS);
+              $email = filter_input(INPUT_POST, "email",FILTER_SANITIZE_SPECIAL_CHARS);
           
               if(empty($firstName)){
-                  echo"Please enter a first name";
+                  echo"<p style= 'font-family:var(--inter); color:#151B1F' >Please enter a first name<p>";
               }
               elseif(empty($lastName)){
-                  echo"Please enter a last name ";
+                  echo"<p style= 'font-family:var(--inter); color:#151B1F' >Please enter a last name <p>";
               }
               elseif(empty($email)){
-                echo"Please enter an email";
+                echo"<p style= 'font-family:var(--inter); color:#151B1F' >Please enter an email<p>";
                 mysqli_close($conn);
             }
               else{    
