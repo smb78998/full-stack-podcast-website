@@ -1,7 +1,7 @@
 
 # Cash Chronicles Website README
 
-[Live Website Link](https://smb78998.github.io/a_202420-CEN-4350/)
+[Live Website Link](http://moneytalks.lovestoblog.com/?i=1)
 
 This is a full-stack website created with HTML, CSS, JavaScript, PHP, and SQL. 
 
